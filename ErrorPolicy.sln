@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8340DE7-A421-44A4-BCD6-A62999ED20D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{707AF0D1-36D3-46B5-BC81-FAFC7335A38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorPolicy", "src\ErrorPolicy\ErrorPolicy.csproj", "{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{8DD85232-47CF-40A0-8F4C-1363CF06106E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{870C93D6-E7D2-4747-9094-2977F1F79D77}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Debug|x64.Build.0 = Debug|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Debug|x86.Build.0 = Debug|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Release|x64.ActiveCfg = Release|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Release|x64.Build.0 = Release|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Release|x86.ActiveCfg = Release|Any CPU
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74E94FD6-8C94-4F2B-9CBB-931F1E09770A} = {E8340DE7-A421-44A4-BCD6-A62999ED20D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AA4D290-CD74-49A9-AFCC-6A240C7319C8}
+	EndGlobalSection
+EndGlobal
